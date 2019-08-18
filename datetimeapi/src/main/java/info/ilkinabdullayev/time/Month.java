@@ -19,4 +19,12 @@ public enum Month {
        return ordinal() + 1;
     }
 
+    public static Month of(int month) {
+        if (month < 1 || month > 12) {
+            throw new DateTimeException("Invalid value for MonthOfYear: " + month);
+        }
+
+        return Month.values()[month - 1];
+    }
+
 }
