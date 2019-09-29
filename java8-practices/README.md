@@ -3,3 +3,4 @@ This module contains Java8 features and there's a plan to keep up to date this m
 
 ## Links
 https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
+https://www.deadcoderising.com/2015-09-07-java-8-functional-composition-using-compose-and-andthen/
