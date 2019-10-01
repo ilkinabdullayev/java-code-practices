@@ -3,6 +3,9 @@ package info.ilkinabdullayev.basic.lesson5;
 
 import info.ilkinabdullayev.Person;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.function.*;
 
 public class Main {
@@ -42,5 +45,12 @@ public class Main {
         Supplier<Person> personSupplierMethodRef = Person::new;
         System.out.println("Result personSupplierMethodRef: " + personSupplierMethodRef.get());
 
+    }
+
+    //Exercise 1
+    private void sortList() {
+        List<String> persons = Arrays.asList("Ilkin", "David", "Andrea");
+        //Comparator -> BiFunction
+        Collections.sort(persons, (p1, p2) -> p1.compareTo(p2)); //skip natural order; it is just example
     }
 }
