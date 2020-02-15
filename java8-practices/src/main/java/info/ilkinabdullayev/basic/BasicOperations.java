@@ -28,6 +28,7 @@ public class BasicOperations {
         names.forEach(System.out::println);
 
 
+       // Formula formula1 = a -> sqrt(a); //nooooooo doesnt compile
         /////Functional Interfaces
 
     }
